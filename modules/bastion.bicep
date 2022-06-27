@@ -1,7 +1,7 @@
 param location string
 param bastionName string
 param subnetID string
-param bastionSku string = 'Basic'
+param bastionSku string = 'Standard'
 param tagsByResource object = {}
 
 resource bastion 'Microsoft.Network/bastionHosts@2021-03-01' = {
